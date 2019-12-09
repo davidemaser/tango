@@ -1,0 +1,56 @@
+[
+    {
+        "item":{
+            "type":"div",
+            "id":"this",
+            "style":"",
+            "handler":{
+                "event":"click",
+                "function":"console.log('hi there')"
+            },
+            "children":
+                {
+                    "type":"text",
+                    "label":"something"
+                }
+        }
+    },
+    {
+        "item":{
+            "type":"select",
+            "id":"this",
+            "style":"",
+            "handler":{
+                "event":"click",
+                "function":"thisIsAFunction"
+            },
+            "children":[
+                {
+                    "type":"option",
+                    "default":true,
+                    "value":"null",
+                    "label":"somehting"
+                }
+            ]
+        }
+    },
+    {
+        "item":{
+            "type":"select",
+            "children":[
+                {
+                    "type":"option",
+                    "default":true,
+                    "value":"this",
+                    "label":"somehting"
+                },
+                {
+                    "type":"option",
+                    "default":false,
+                    "value":"that",
+                    "label":"somehting else"
+                }
+            ]
+        }
+    }   
+]
